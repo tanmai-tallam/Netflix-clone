@@ -1,0 +1,189 @@
+[{
+        "model": "netflix.Category",
+        "pk": 1,
+        "fields": { "name": "Action" }
+    },
+    {
+        "model": "netflix.Category",
+        "pk": 2,
+        "fields": { "name": "Adventure" }
+    },
+    {
+        "model": "netflix.Tag",
+        "pk": 1,
+        "fields": { "name": "Popular" }
+    },
+    {
+        "model": "netflix.Tag",
+        "pk": 2,
+        "fields": { "name": "Trending now" }
+    },
+    {
+        "model": "netflix.Movie",
+        "pk": 1,
+        "fields": {
+            "name": "Akanda",
+            "description": "Akanda-The warrior of truth",
+            "category": 1,
+            "tags": [1, 2],
+            "watch_count": 10,
+            "preview_image": "preview_images/1.JPG",
+            "file": "movies/1.mp4",
+            "date_created": "2022-05-05 14:08:15.221580"
+        }
+    },
+    {
+        "model": "netflix.Movie",
+        "pk": 2,
+        "fields": {
+            "name": "MAD",
+            "description": "MAD",
+            "category": 1,
+            "tags": [1],
+            "watch_count": 5,
+            "preview_image": "preview_images/2.JPG",
+            "file": "movies/2.mp4",
+            "date_created": "2022-05-05 14:08:15.221580"
+        }
+    },
+    {
+        "model": "netflix.Movie",
+        "pk": 3,
+        "fields": {
+            "name": "KGF-2",
+            "description": "KGF-2",
+            "category": 1,
+            "tags": [2],
+            "watch_count": 2,
+            "preview_image": "preview_images/3.JPG",
+            "file": "movies/3.mp4",
+            "date_created": "2022-05-05 14:08:15.221580"
+        }
+    },
+    {
+        "model": "netflix.Movie",
+        "pk": 4,
+        "fields": {
+            "name": "DJ Tillu",
+            "description": "Tillu karana janmudu",
+            "category": 1,
+            "tags": [],
+            "watch_count": 1,
+            "preview_image": "preview_images/4.JPG",
+            "file": "movies/4.mp4",
+            "date_created": "2022-05-05 14:08:15.221580"
+        }
+    },
+    {
+        "model": "netflix.Movie",
+        "pk": 5,
+        "fields": {
+            "name": "Bimbisara",
+            "description": "Useless magic mirror",
+            "category": 1,
+            "tags": [1, 2],
+            "watch_count": 25,
+            "preview_image": "preview_images/5.JPG",
+            "file": "movies/5.mp4",
+            "date_created": "2022-05-05 14:08:15.221580"
+        }
+    },
+    {
+        "model": "netflix.Movie",
+        "pk": 6,
+        "fields": {
+            "name": "HanuMan",
+            "description": "Chronicles of Hanuman",
+            "category": 1,
+            "tags": [1, 2],
+            "watch_count": 11,
+            "preview_image": "preview_images/6.JPG",
+            "file": "movies/6.mp4",
+            "date_created": "2022-05-05 14:08:15.221580"
+        }
+    },
+    {
+        "model": "netflix.Movie",
+        "pk": 7,
+        "fields": {
+            "name": "Dhoni new ad",
+            "description": "Bole jo koyal",
+            "category": 2,
+            "tags": [1],
+            "watch_count": 5,
+            "preview_image": "preview_images/7.PNG",
+            "file": "movies/7.mp4",
+            "date_created": "2022-05-05 14:08:15.221580"
+        }
+    },
+    {
+        "model": "netflix.Movie",
+        "pk": 8,
+        "fields": {
+            "name": "Where is Pushpa?",
+            "description": "Where is Phuspa",
+            "category": 2,
+            "tags": [],
+            "watch_count": 5,
+            "preview_image": "preview_images/8.JPG",
+            "file": "movies/8.mp4",
+            "date_created": "2022-05-05 14:08:15.221580"
+        }
+    },
+    {
+        "model": "netflix.Movie",
+        "pk": 9,
+        "fields": {
+            "name": "Godzilla VS Kong",
+            "description": "Big Lizard VS Big Fat Gorilla",
+            "category": 2,
+            "tags": [1, 2],
+            "watch_count": 5,
+            "preview_image": "preview_images/9.JPG",
+            "file": "movies/9.mp4",
+            "date_created": "2022-05-05 14:08:15.221580"
+        }
+    },
+    {
+        "model": "netflix.Movie",
+        "pk": 10,
+        "fields": {
+            "name": "Family Star",
+            "description": "Cringe stuff",
+            "category": 2,
+            "tags": [1],
+            "watch_count": 5,
+            "preview_image": "preview_images/10.JPG",
+            "file": "movies/10.mp4",
+            "date_created": "2022-05-05 14:08:15.221580"
+        }
+    },
+    {
+        "model": "netflix.Movie",
+        "pk": 11,
+        "fields": {
+            "name": "USTAAD",
+            "description": "Mad cop",
+            "category": 2,
+            "tags": [2],
+            "watch_count": 5,
+            "preview_image": "preview_images/11.JPG",
+            "file": "movies/11.mp4",
+            "date_created": "2022-05-05 14:08:15.221580"
+        }
+    },
+    {
+        "model": "netflix.Movie",
+        "pk": 12,
+        "fields": {
+            "name": "OG",
+            "description": "Original Ganagstar",
+            "category": 2,
+            "tags": [1],
+            "watch_count": 5,
+            "preview_image": "preview_images/12.JPG",
+            "file": "movies/12.mp4",
+            "date_created": "2022-05-05 14:08:15.221580"
+        }
+    }
+]
